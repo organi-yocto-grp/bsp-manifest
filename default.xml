@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="master"/>
+
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="git://github.com/meta-qt5" name="qt5"/>
+  <remote fetch="git@git.autorock.com:yocto" name="autorock"/>
+
+  <project remote="yocto" revision="dizzy" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="dizzy" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="qt5" revision="dizzy" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="yocto" revision="dizzy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+
+  <project remote="autorock" revision="master" name="bsp-base" path="sources/base">
+	<copyfile dest="README" src="README"/>
+	<copyfile dest="setup-environment" src="setup-environment"/>
+  </project>
+
+</manifest>
