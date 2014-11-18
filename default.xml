@@ -13,6 +13,7 @@
   <project remote="qt5" revision="dizzy" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="yocto" revision="dizzy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
+  <project remote="autorock" revision="master" name="meta-autorock" path="sources/meta-autorock"/>
   <project remote="autorock" revision="master" name="bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
