@@ -16,6 +16,8 @@
   <project remote="sunxi" revision="dizzy" name="meta-sunxi" path="sources/meta-sunxi"/>
 
   <project remote="autorock" revision="master" name="meta-autorock" path="sources/meta-autorock"/>
+  <project remote="autorock" revision="master" name="meta-imx6-autorock" path="sources/meta-imx6-autorock"/>
+  <project remote="autorock" revision="master" name="meta-sunxi-autorock" path="sources/meta-sunxi-autorock"/>
   <project remote="autorock" revision="master" name="bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
