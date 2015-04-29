@@ -9,11 +9,11 @@
   <remote fetch="git@git.autorock.com:yocto" name="autorock"/>
   <remote fetch="git://github.com/linux-sunxi" name="sunxi"/>
 
-  <project remote="yocto" revision="dizzy" name="poky" path="sources/poky"/>
-  <project remote="oe" revision="dizzy" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="qt5" revision="master" name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="yocto" revision="dizzy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
-  <project remote="sunxi" revision="dizzy" name="meta-sunxi" path="sources/meta-sunxi"/>
+  <project remote="yocto" revision="9fc095a439c36014c73b3a8f240afba09fe0e4d7" name="poky" path="sources/poky" upstream="dizzy"/>
+  <project remote="oe" revision="6413cdb66acf43059f94d0076ec9b8ad6a475b35" name="meta-openembedded" path="sources/meta-openembedded" upstream="dizzy"/>
+  <project remote="qt5" revision="7a65ba6089560efdd840a9590684c24fbcdb7818" name="meta-qt5" path="sources/meta-qt5" upstream="master"/>
+  <project remote="yocto" revision="de09415bac404f1edd25f0d84f90b2dc3ce7bb82" name="meta-fsl-arm" path="sources/meta-fsl-arm" upstream="dizzy"/>
+  <project remote="sunxi" revision="0ed1eadb956158471748878a8df4bfcf979184f5" name="meta-sunxi" path="sources/meta-sunxi" upstream="dizzy"/>
 
   <project remote="autorock" revision="master" name="meta-autorock" path="sources/meta-autorock"/>
   <project remote="autorock" revision="master" name="meta-imx6-autorock" path="sources/meta-imx6-autorock"/>
