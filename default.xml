@@ -15,10 +15,10 @@
   <project remote="yocto" revision="de09415bac404f1edd25f0d84f90b2dc3ce7bb82" name="meta-fsl-arm" path="sources/meta-fsl-arm" upstream="dizzy"/>
   <project remote="sunxi" revision="0ed1eadb956158471748878a8df4bfcf979184f5" name="meta-sunxi" path="sources/meta-sunxi" upstream="dizzy"/>
 
-  <project remote="autorock" revision="de2ba0e25263f0b41816efa4e52f56967d03f691" name="meta-autorock" path="sources/meta-autorock" upstream="master"/>
-  <project remote="autorock" revision="a29e3555f242e07e377eb3eb700c2d6fe754d7af" name="meta-imx6-autorock" path="sources/meta-imx6-autorock" upstream="master"/>
-  <project remote="autorock" revision="44624d7ede7a16f55f3ae594fdfbf4d2023a473e" name="meta-sunxi-autorock" path="sources/meta-sunxi-autorock" upstream="master"/>
-  <project remote="autorock" revision="a190499dbe5a34c2ea95ecc1d94a6dac4b6aec97" name="bsp-base" path="sources/base" upstream="master">
+  <project remote="autorock" revision="de2ba0e25263f0b41816efa4e52f56967d03f691" name="meta-autorock" path="sources/meta-autorock" upstream="0.1"/>
+  <project remote="autorock" revision="a29e3555f242e07e377eb3eb700c2d6fe754d7af" name="meta-imx6-autorock" path="sources/meta-imx6-autorock" upstream="0.1"/>
+  <project remote="autorock" revision="44624d7ede7a16f55f3ae594fdfbf4d2023a473e" name="meta-sunxi-autorock" path="sources/meta-sunxi-autorock" upstream="0.1"/>
+  <project remote="autorock" revision="a190499dbe5a34c2ea95ecc1d94a6dac4b6aec97" name="bsp-base" path="sources/base" upstream="0.1">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
