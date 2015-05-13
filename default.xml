@@ -21,6 +21,7 @@
   <project remote="autorock" revision="master" name="bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
+	<copyfile dest="Makefile" src="Makefile"/>
   </project>
 
 </manifest>
