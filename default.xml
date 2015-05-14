@@ -6,7 +6,7 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/meta-qt5" name="qt5"/>
-  <remote fetch="git@git.autorock.com:yocto" name="autorock"/>
+  <remote fetch="git@gitlab.autorock.com:yocto-grp" name="autorock"/>
   <remote fetch="git://github.com/linux-sunxi" name="sunxi"/>
 
   <project remote="yocto" revision="9fc095a439c36014c73b3a8f240afba09fe0e4d7" name="poky" path="sources/poky" upstream="dizzy"/>
