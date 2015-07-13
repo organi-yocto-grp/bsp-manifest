@@ -12,7 +12,7 @@
   <project remote="yocto" revision="9fc095a439c36014c73b3a8f240afba09fe0e4d7" name="poky" path="sources/poky" upstream="dizzy"/>
   <project remote="oe" revision="6413cdb66acf43059f94d0076ec9b8ad6a475b35" name="meta-openembedded" path="sources/meta-openembedded" upstream="dizzy"/>
   <project remote="qt5" revision="82b211aa423cd9ae46422823139b24a07e8b0fa9" name="meta-qt5" path="sources/meta-qt5" upstream="master"/>
-  <project remote="yocto" revision="de09415bac404f1edd25f0d84f90b2dc3ce7bb82" name="meta-fsl-arm" path="sources/meta-fsl-arm" upstream="dizzy"/>
+  <project remote="yocto" revision="645749dd76f37e4b9116e6f5a02ee5716b80538a" name="meta-fsl-arm" path="sources/meta-fsl-arm" upstream="master"/>
   <project remote="sunxi" revision="0ed1eadb956158471748878a8df4bfcf979184f5" name="meta-sunxi" path="sources/meta-sunxi" upstream="dizzy"/>
 
   <project remote="autorock" revision="master" name="meta-autorock" path="sources/meta-autorock"/>
