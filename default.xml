@@ -9,11 +9,11 @@
   <remote fetch="git@gitlab.autorock.com:yocto-grp" name="autorock"/>
   <remote fetch="git://github.com/linux-sunxi" name="sunxi"/>
 
-  <project remote="yocto" revision="9fc095a439c36014c73b3a8f240afba09fe0e4d7" name="poky" path="sources/poky" upstream="dizzy"/>
-  <project remote="oe" revision="6413cdb66acf43059f94d0076ec9b8ad6a475b35" name="meta-openembedded" path="sources/meta-openembedded" upstream="dizzy"/>
-  <project remote="qt5" revision="82b211aa423cd9ae46422823139b24a07e8b0fa9" name="meta-qt5" path="sources/meta-qt5" upstream="master"/>
-  <project remote="yocto" revision="645749dd76f37e4b9116e6f5a02ee5716b80538a" name="meta-fsl-arm" path="sources/meta-fsl-arm" upstream="master"/>
-  <project remote="sunxi" revision="0ed1eadb956158471748878a8df4bfcf979184f5" name="meta-sunxi" path="sources/meta-sunxi" upstream="dizzy"/>
+  <project remote="yocto" revision="08f9fbbc97909698b56200aa9be5fe50b99a44b2" name="poky" path="sources/poky" upstream="fido"/>
+  <project remote="oe" revision="10d3c8f85280a0bf867a8e4f84bcda81c290d28e" name="meta-openembedded" path="sources/meta-openembedded" upstream="fido"/>
+  <project remote="qt5" revision="fc026381545650e10fdd488d5b2a3b2d78f87793" name="meta-qt5" path="sources/meta-qt5" upstream="fido"/>
+  <project remote="yocto" revision="7e8772e42b4c5db14d51e2d7d49fd5257ec314cd" name="meta-fsl-arm" path="sources/meta-fsl-arm" upstream="fido"/>
+  <project remote="sunxi" revision="9ac263ebab41ea5229d4c74ff837ae6a623536b9" name="meta-sunxi" path="sources/meta-sunxi" upstream="master"/>
 
   <project remote="autorock" revision="master" name="meta-autorock" path="sources/meta-autorock"/>
   <project remote="autorock" revision="master" name="meta-imx6-autorock" path="sources/meta-imx6-autorock"/>
