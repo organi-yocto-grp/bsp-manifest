@@ -7,7 +7,7 @@
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/meta-qt5" name="qt5"/>
   <remote fetch="git://github.com/linux-sunxi" name="sunxi"/>
-  <remote fetch="git@gitlab.autorock.com:yocto-grp" name="autorock"/>
+  <remote fetch="git@zkgit.iask.in:yocto-grp" name="autorock"/>
 
   <project remote="yocto" revision="dd0ba9ea4a11ab15348d4fe3574e4b28784db82f" name="poky" path="sources/poky" upstream="fido"/>
   <project remote="oe" revision="ad6133a2e95f4b83b6b3ea413598e2cd5fb3fd90" name="meta-openembedded" path="sources/meta-openembedded" upstream="fido"/>
